@@ -1,0 +1,10 @@
+{
+  "requests": 15,
+  "errors": 0,
+  "all_request_p50_ms": 6309,
+  "all_request_p95_ms": 9513,
+  "answer_faithfulness": "not measured",
+  "citation_validity": "not measured",
+  "retrieval_hit_at_5": 1.0,
+  "note": "Retrieval hit@5 is source-URL coverage in the first five retrieved passages, not claim-level correctness. Semantic grades require explicit review."
+}

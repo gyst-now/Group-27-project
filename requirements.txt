@@ -1,0 +1,7 @@
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+langgraph>=1,<2
+langchain-openai>=1,<2
+httpx[socks]>=0.28,<1
+beautifulsoup4>=4.13,<5
+python-dotenv>=1,<2

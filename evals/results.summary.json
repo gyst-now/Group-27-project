@@ -1,0 +1,10 @@
+{
+  "requests": 15,
+  "errors": 15,
+  "all_request_p50_ms": 3700,
+  "all_request_p95_ms": 17132,
+  "answer_faithfulness": "not measured",
+  "citation_validity": "not measured",
+  "retrieval_hit_at_5": "not measured",
+  "note": "Returned citations are not retrieval hit@5. Human review and retrieval instrumentation required; errors do not establish RAG quality."
+}
