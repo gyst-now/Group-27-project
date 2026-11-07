@@ -31,3 +31,18 @@ def test_topic_only_in_prerequisite_is_not_retrieved_as_course_coverage():
     misleading={**PASSAGE,'id':'b','content':'MATH 522 Lie Groups. Prerequisite: undergraduate linear algebra.'}
     r=build_graph(Store([main,misleading]),Embed(),Model(['a'])).invoke({'question':'Which mathematics courses cover linear algebra?'})
     assert [p['id'] for p in r['passages']]==['a']
+
+
+def test_catalog_miss_uses_external_research():
+    calls = []
+
+    def external(question):
+        calls.append(question)
+        return {'status': 'external_answer', 'answer': 'See the BLS projection.',
+                'citations': [{'url': 'https://www.bls.gov/emp/'}]}
+
+    question = 'What are the employment projections for software developers?'
+    result = build_graph(Store([]), Embed(), Model([]), external).invoke({'question': question})
+    assert calls == [question]
+    assert result['status'] == 'external_answer'
+    assert result['citations'][0]['url'] == 'https://www.bls.gov/emp/'

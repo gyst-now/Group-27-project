@@ -27,7 +27,7 @@ class Citation(BaseModel):
 
 class ChatResponse(BaseModel):
     answer: str
-    status: Literal['answered', 'insufficient_evidence', 'error']
+    status: Literal['answered', 'external_answer', 'insufficient_evidence', 'error']
     citations: list[Citation] = Field(default_factory=list)
     request_id: str
     latency_ms: int

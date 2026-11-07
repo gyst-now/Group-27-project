@@ -1,10 +1,12 @@
 import json
+import logging
 import re
 from typing import TypedDict
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_core.messages import SystemMessage, HumanMessage
 from src.config import Settings, URLS
+from src.external import build_external_answer
 from src.schemas import GroundedAnswer
 from src.prompts import SYSTEM
 from src.vectorstore import VectorStore
@@ -22,7 +24,7 @@ class State(TypedDict, total=False):
     clarification: str
 
 
-def build_graph(store, embedder, model):
+def build_graph(store, embedder, model, external_answer=None):
     def retrieve(state):
         question = state['question']
         if (re.search(r'\b\d{3}\b', question)
@@ -59,6 +61,19 @@ def build_graph(store, embedder, model):
         return {'status': 'answered', 'citations': citations}
 
     def insufficient(state):
+        if external_answer and not state.get('clarification'):
+            try:
+                result = external_answer(state['question'])
+                if result['answer'] and result['citations']:
+                    return result
+                return {'status': 'insufficient_evidence',
+                        'answer': 'I could not verify an answer from external sources. Try specifying the occupation, region, or time period.',
+                        'citations': []}
+            except Exception as exc:
+                logging.getLogger(__name__).warning('External research failed: %s', type(exc).__name__)
+                return {'status': 'insufficient_evidence',
+                        'answer': 'The catalog does not cover this question, and external research is temporarily unavailable.',
+                        'citations': []}
         return {'status': 'insufficient_evidence', 'answer': state.get('clarification', NO_EVIDENCE), 'citations': []}
 
     graph = StateGraph(State)
@@ -78,4 +93,4 @@ def production_graph():
     s = Settings.load()
     embedder = OpenAIEmbeddings(model='text-embedding-3-small', dimensions=1536, api_key=s.openai_key, request_timeout=15, max_retries=1)
     model = ChatOpenAI(model=s.model, api_key=s.openai_key, timeout=20, max_retries=1, temperature=0, max_tokens=1000).with_structured_output(GroundedAnswer)
-    return build_graph(VectorStore(s), embedder, model)
+    return build_graph(VectorStore(s), embedder, model, build_external_answer(s))
