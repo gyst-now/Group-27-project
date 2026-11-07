@@ -1,0 +1,67 @@
+{
+  "question": "Which mathematics courses cover linear algebra?",
+  "http_status": 200,
+  "latency_ms": 8348,
+  "response": {
+    "answer": "The mathematics courses that cover linear algebra are MATH 227 Linear Algebra for Data Science, MATH 257 Linear Algebra with Computational Applications, MATH 415 Applied Linear Algebra, and MATH 416 Abstract Linear Algebra.",
+    "status": "answered",
+    "citations": [
+      {
+        "label": "[1]",
+        "title": "MATH 227 \u2002 Linear Algebra for Data Science \u2002 credit: 3 Hours.",
+        "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+        "course_code": "MATH 227",
+        "excerpt": "MATH 227 \u2002 Linear Algebra for Data Science \u2002 credit: 3 Hours. Linear algebra is the main mathematical subject underlying the basic techniques of data science. Provides a practical computer-based introduction to linear algebra, emphasizing its uses in analyzing data, such as linear regression, principal component analysis, and network analysis. Students will also explore some of the strengths and limitations of linear methods. Students will learn how to implement linear algebra methods on a computer, making it possible to apply these techniques to large data sets. Credit is not given for both MATH 227 and any of Math 125, MATH 225 , MATH 257 , MATH 415 , or ASRM 406 . Prerequisite: Assumes an introductory knowledge of Python, such as students acquire in STAT 107 ."
+      },
+      {
+        "label": "[2]",
+        "title": "MATH 257 \u2002 Linear Algebra with Computational Applications \u2002 credit: 3 Hours.",
+        "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+        "course_code": "MATH 257",
+        "excerpt": "MATH 257 \u2002 Linear Algebra with Computational Applications \u2002 credit: 3 Hours. Introductory course incorporating linear algebra concepts with computational tools, with real world applications to science, engineering and data science. Topics include linear equations, matrix operations, vector spaces, linear transformations, eigenvalues, eigenvectors, inner products and norms, orthogonality, linear regression, equilibrium, linear dynamical systems and the singular value decomposition. Credit is not given for both MATH 257 and any of MATH 125, MATH 225 , MATH 227 , MATH 415 or ASRM 406 . Prerequisite: MATH 220 or MATH 221 ; CS 101 or equivalent programming experience."
+      },
+      {
+        "label": "[3]",
+        "title": "MATH 415 \u2002 Applied Linear Algebra \u2002 credit: 3 or 4 Hours.",
+        "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+        "course_code": "MATH 415",
+        "excerpt": "MATH 415 \u2002 Applied Linear Algebra \u2002 credit: 3 or 4 Hours. Introductory course emphasizing techniques of linear algebra with applications to engineering; topics include matrix operations, determinants, linear equations, vector spaces, linear transformations, eigenvalues, and eigenvectors, inner products and norms, orthogonality, equilibrium, and linear dynamical systems. 3 or 4 undergraduate hours. 3 or 4 graduate hours. Credit is not given for both MATH 415 and any of MATH 125, MATH 225 , ASRM 406 , or MATH 416 . 4 hours of credit requires approval of the instructor and department with completion of additional work of substance. Prerequisite: MATH 241 or consent of instructor."
+      },
+      {
+        "label": "[4]",
+        "title": "MATH 416 \u2002 Abstract Linear Algebra \u2002 credit: 3 or 4 Hours.",
+        "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+        "course_code": "MATH 416",
+        "excerpt": "MATH 416 \u2002 Abstract Linear Algebra \u2002 credit: 3 or 4 Hours. Rigorous proof-oriented course in linear algebra. Topics include determinants, vector spaces over fields, linear transformations, inner product spaces, eigenvectors and eigenvalues, Hermitian matrices, Jordan Normal Form. 3 or 4 undergraduate hours. 3 or 4 graduate hours. Credit is not given for both MATH 416 and either ASRM 406 or MATH 415 . 4 hours of credit requires approval of the instructor and department with completion of additional work of substance. Prerequisite: MATH 241 ; MATH 314 or MATH 347; or consent of instructor."
+      }
+    ],
+    "request_id": "68fe5ec8-6659-4a3b-92f5-94b8a266d4c6",
+    "latency_ms": 3939,
+    "retrieved_sources": [
+      {
+        "id": "65951f8dc1cb3c74ddd61b2e713380d25d6ee507bfbc296edd29834a56f07abd",
+        "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+        "course_code": "MATH 227",
+        "similarity": 0.68927258424848
+      },
+      {
+        "id": "cde0a6634a93f88074fa48d3fe3989c253141a7a4282254d5ae6503d55499f1b",
+        "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+        "course_code": "MATH 257",
+        "similarity": 0.688960689641565
+      },
+      {
+        "id": "212ac20cec990e9eefe628ae51d9aa91ce24355acfdb19e0a18fdc8d1d7fcd85",
+        "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+        "course_code": "MATH 415",
+        "similarity": 0.650301818776742
+      },
+      {
+        "id": "72458186d6873283509d14f5a2e79b7958eb95e52d11abb859f8bae31c5c2be7",
+        "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+        "course_code": "MATH 416",
+        "similarity": 0.619040905906148
+      }
+    ]
+  }
+}

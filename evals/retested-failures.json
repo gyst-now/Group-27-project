@@ -1,0 +1,150 @@
+[
+  {
+    "id": "Q04",
+    "question": "What is CS 374?",
+    "http_status": 200,
+    "latency_ms": 9105,
+    "response": {
+      "answer": "CS 374 is a 4-credit course titled \"Introduction to Algorithms & Models of Computation.\" It covers analysis of algorithms and major paradigms of algorithm design including recursive algorithms, divide-and-conquer algorithms, dynamic programming, greedy algorithms, and graph algorithms. The course also includes formal models of computation such as finite automata and Turing machines, limitations of computation, reductions, undecidability, and NP-completeness. It is the same as ECE 374.",
+      "status": "answered",
+      "citations": [
+        {
+          "label": "[1]",
+          "title": "CS 374 \u2002 Introduction to Algorithms & Models of Computation \u2002 credit: 4 Hours.",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/cs/",
+          "course_code": "CS 374",
+          "excerpt": "CS 374 \u2002 Introduction to Algorithms & Models of Computation \u2002 credit: 4 Hours. Analysis of algorithms, major paradigms of algorithm design including recursive algorithms, divide-and-conquer algorithms, dynamic programming, greedy algorithms, and graph algorithms. Formal models of computation including finite automata and Turing machines. Limitations of computation arising from fundamental notions of algorithm and from complexity-theoretic constraints. Reductions, undecidability and NP-completeness. Same as ECE 374 . Prerequisite: One of CS 173 , MATH 213 ; CS 225 ."
+        }
+      ],
+      "request_id": "d6b01eec-1947-4a0a-8f73-59f8c85db189",
+      "latency_ms": 4359,
+      "retrieved_sources": [
+        {
+          "id": "82dd255edec6dbb339350291a7ca0668440b70dc118dc496ec8523a1630ecd13",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/cs/",
+          "course_code": "CS 374",
+          "similarity": 1
+        },
+        {
+          "id": "80816e8f1bf3f2d77647b8c01470917cf45d53cf63ffb0b77a305212f5290f5f",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/cs/",
+          "course_code": "CS 473",
+          "similarity": 0.622129243639752
+        },
+        {
+          "id": "1e63c06b6b758a7595b8e2ad3ee0ed32033c285fe6e8108818ec80dad3b86f90",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/cs/",
+          "course_code": "CS 463",
+          "similarity": 0.605754938857265
+        },
+        {
+          "id": "20222d7e259f7a51fe2a40d32690d46ec1733a73fb5423d4fa244b433d6806ff",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/cs/",
+          "course_code": "CS 464",
+          "similarity": 0.604850112428838
+        },
+        {
+          "id": "07e9c5ad16d0ced630257659cbf872cf8fa97679ba73262ccf22d25fcc45b766",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/cs/",
+          "course_code": "CS 431",
+          "similarity": 0.601551930117693
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q07",
+    "question": "Which mathematics courses cover linear algebra?",
+    "http_status": 200,
+    "latency_ms": 10031,
+    "response": {
+      "answer": "The mathematics courses that cover linear algebra are MATH 227 Linear Algebra for Data Science, MATH 257 Linear Algebra with Computational Applications, MATH 415 Applied Linear Algebra, MATH 416 Abstract Linear Algebra, and MATH 522 Lie Groups and Lie Algebras I (which requires undergraduate linear algebra as a prerequisite).",
+      "status": "answered",
+      "citations": [
+        {
+          "label": "[1]",
+          "title": "MATH 227 \u2002 Linear Algebra for Data Science \u2002 credit: 3 Hours.",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+          "course_code": "MATH 227",
+          "excerpt": "MATH 227 \u2002 Linear Algebra for Data Science \u2002 credit: 3 Hours. Linear algebra is the main mathematical subject underlying the basic techniques of data science. Provides a practical computer-based introduction to linear algebra, emphasizing its uses in analyzing data, such as linear regression, principal component analysis, and network analysis. Students will also explore some of the strengths and limitations of linear methods. Students will learn how to implement linear algebra methods on a computer, making it possible to apply these techniques to large data sets. Credit is not given for both MATH 227 and any of Math 125, MATH 225 , MATH 257 , MATH 415 , or ASRM 406 . Prerequisite: Assumes an introductory knowledge of Python, such as students acquire in STAT 107 ."
+        },
+        {
+          "label": "[2]",
+          "title": "MATH 257 \u2002 Linear Algebra with Computational Applications \u2002 credit: 3 Hours.",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+          "course_code": "MATH 257",
+          "excerpt": "MATH 257 \u2002 Linear Algebra with Computational Applications \u2002 credit: 3 Hours. Introductory course incorporating linear algebra concepts with computational tools, with real world applications to science, engineering and data science. Topics include linear equations, matrix operations, vector spaces, linear transformations, eigenvalues, eigenvectors, inner products and norms, orthogonality, linear regression, equilibrium, linear dynamical systems and the singular value decomposition. Credit is not given for both MATH 257 and any of MATH 125, MATH 225 , MATH 227 , MATH 415 or ASRM 406 . Prerequisite: MATH 220 or MATH 221 ; CS 101 or equivalent programming experience."
+        },
+        {
+          "label": "[3]",
+          "title": "MATH 415 \u2002 Applied Linear Algebra \u2002 credit: 3 or 4 Hours.",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+          "course_code": "MATH 415",
+          "excerpt": "MATH 415 \u2002 Applied Linear Algebra \u2002 credit: 3 or 4 Hours. Introductory course emphasizing techniques of linear algebra with applications to engineering; topics include matrix operations, determinants, linear equations, vector spaces, linear transformations, eigenvalues, and eigenvectors, inner products and norms, orthogonality, equilibrium, and linear dynamical systems. 3 or 4 undergraduate hours. 3 or 4 graduate hours. Credit is not given for both MATH 415 and any of MATH 125, MATH 225 , ASRM 406 , or MATH 416 . 4 hours of credit requires approval of the instructor and department with completion of additional work of substance. Prerequisite: MATH 241 or consent of instructor."
+        },
+        {
+          "label": "[4]",
+          "title": "MATH 416 \u2002 Abstract Linear Algebra \u2002 credit: 3 or 4 Hours.",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+          "course_code": "MATH 416",
+          "excerpt": "MATH 416 \u2002 Abstract Linear Algebra \u2002 credit: 3 or 4 Hours. Rigorous proof-oriented course in linear algebra. Topics include determinants, vector spaces over fields, linear transformations, inner product spaces, eigenvectors and eigenvalues, Hermitian matrices, Jordan Normal Form. 3 or 4 undergraduate hours. 3 or 4 graduate hours. Credit is not given for both MATH 416 and either ASRM 406 or MATH 415 . 4 hours of credit requires approval of the instructor and department with completion of additional work of substance. Prerequisite: MATH 241 ; MATH 314 or MATH 347; or consent of instructor."
+        },
+        {
+          "label": "[5]",
+          "title": "MATH 522 \u2002 Lie Groups and Lie Algebras I \u2002 credit: 4 Hours.",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+          "course_code": "MATH 522",
+          "excerpt": "MATH 522 \u2002 Lie Groups and Lie Algebras I \u2002 credit: 4 Hours. A general introduction to Lie groups and algebras and their representation theory. Theory of finite group representations, Lie groups as matrix groups, and as differentiable manifolds, Lie algebras as tangent spaces and as abstract objects, and their representations. Examples of the classical groups. May be repeated up to 8 hours. Prerequisite: Undergraduate linear algebra, abstract algebra, point set topology, differentiation on manifolds."
+        }
+      ],
+      "request_id": "8ef972dc-6d1f-4526-ba30-b51df51043f3",
+      "latency_ms": 3050,
+      "retrieved_sources": [
+        {
+          "id": "65951f8dc1cb3c74ddd61b2e713380d25d6ee507bfbc296edd29834a56f07abd",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+          "course_code": "MATH 227",
+          "similarity": 0.68927258424848
+        },
+        {
+          "id": "cde0a6634a93f88074fa48d3fe3989c253141a7a4282254d5ae6503d55499f1b",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+          "course_code": "MATH 257",
+          "similarity": 0.688960689641565
+        },
+        {
+          "id": "212ac20cec990e9eefe628ae51d9aa91ce24355acfdb19e0a18fdc8d1d7fcd85",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+          "course_code": "MATH 415",
+          "similarity": 0.650301818776742
+        },
+        {
+          "id": "72458186d6873283509d14f5a2e79b7958eb95e52d11abb859f8bae31c5c2be7",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+          "course_code": "MATH 416",
+          "similarity": 0.619040905906148
+        },
+        {
+          "id": "0a2ce011e4e31bdbceb204c3d30e553875d4269e4279d4866f9942152806ac1d",
+          "url": "https://catalog.illinois.edu/courses-of-instruction/math/",
+          "course_code": "MATH 522",
+          "similarity": 0.605014599214281
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q15",
+    "question": "What are the prerequisites for 225?",
+    "http_status": 200,
+    "latency_ms": 3549,
+    "response": {
+      "answer": "Which subject do you mean\u2014for example, CS 225 or MATH 225? Please include the subject and course number.",
+      "status": "insufficient_evidence",
+      "citations": [],
+      "request_id": "8f74b4f6-c40d-47f3-bde2-b829b3496a67",
+      "latency_ms": 344,
+      "retrieved_sources": []
+    }
+  }
+]

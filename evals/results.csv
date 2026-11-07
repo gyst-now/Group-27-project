@@ -1,0 +1,16 @@
+id,question,category,http_status,status,latency_ms,returned_source_coverage,faithfulness_human,citation_validity_human,no_answer_correct_human,answer,citations,request_id
+Q01,What is CS 124?,exact,500,error,5066,0,,,,JSONDecodeError,[],
+Q02,What prerequisites are listed for CS 225?,exact,500,error,3246,0,,,,JSONDecodeError,[],
+Q03,Describe MATH 241 and its credit hours.,exact,500,error,2768,0,,,,JSONDecodeError,[],
+Q04,What is CS 374?,exact,500,error,3794,0,,,,JSONDecodeError,[],
+Q05,Which courses discuss artificial intelligence?,conceptual,500,error,3134,0,,,,JSONDecodeError,[],
+Q06,Which CS courses cover operating systems?,conceptual,500,error,5822,0,,,,JSONDecodeError,[],
+Q07,Which mathematics courses cover linear algebra?,conceptual,503,error,6703,0,,,,The catalog service is temporarily unavailable. Please try again later.,[],dcd39502-bffd-4305-bb95-0a52cd537c04
+Q08,How many total credit hours are required for the CS BS?,degree,503,error,3700,0,,,,The catalog service is temporarily unavailable. Please try again later.,[],e2d01e09-4835-42aa-8271-7969db148255
+Q09,What mathematics courses are required for the CS BS?,degree,503,error,13431,0,,,,The catalog service is temporarily unavailable. Please try again later.,[],571e4e06-8a29-4373-94ec-2f1ce32d2199
+Q10,What are the technical elective requirements for the CS BS?,degree,503,error,17132,0,,,,The catalog service is temporarily unavailable. Please try again later.,[],e35c6e39-01b1-4690-95e4-1834fc3c074c
+Q11,Compare the descriptions of CS 124 and CS 128.,cross-page,503,error,2480,0,,,,The catalog service is temporarily unavailable. Please try again later.,[],505165fc-6967-4313-8b64-88e29f74cf63
+Q12,Describe MATH 241 and explain its role in the CS BS requirements.,cross-page,503,error,2138,0,,,,The catalog service is temporarily unavailable. Please try again later.,[],df6e9a72-1f4d-47c5-969c-4d9a8da90272
+Q13,Does CS 225 have open seats next semester?,unsupported,503,error,2435,,,,,The catalog service is temporarily unavailable. Please try again later.,[],dc0fcc7d-cd66-4c61-a4d0-ba41ebb3784f
+Q14,Can I graduate next semester with my transfer credits?,unsupported,503,error,2933,,,,,The catalog service is temporarily unavailable. Please try again later.,[],9a2b4106-b069-4fec-bf44-b8a1fadc5137
+Q15,What are the prerequisites for 225?,ambiguous,503,error,9104,,,,,The catalog service is temporarily unavailable. Please try again later.,[],234f59b3-aad4-4b8e-8588-dca1334f292e
